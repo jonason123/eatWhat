@@ -1,4 +1,4 @@
 <!--index.wxml-->
 <view class="container">
-  <text>Hello World</text>
+  <text>{{helloworld}}</text>
 </view>
