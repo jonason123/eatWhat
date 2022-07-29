@@ -9,6 +9,9 @@
     "navigationBarTitleText": "等会儿吃什么",
     "navigationBarTextStyle": "black"
   },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }
