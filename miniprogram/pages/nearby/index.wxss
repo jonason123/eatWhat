@@ -1,0 +1,12 @@
+/**index.wxss**/
+
+page {
+  background-color: #f6f6f6;
+  padding-bottom: 60rpx;
+}
+.container_style{
+  flex: 1
+}
+.scroll_view_style{
+  height: 40px;
+}

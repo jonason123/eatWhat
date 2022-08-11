@@ -3,7 +3,7 @@
 
 Page({
   data:{
-    helloworld:'你好'
+    helloworld:'你好xx'
   },
   onLoad(){
     // wx.cloud.callFunction({

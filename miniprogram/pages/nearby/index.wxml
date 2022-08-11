@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view>
+  <text><text>当前位置：</text>{{address}}</text>
+  <scroll-view style="height: 800rpx" scroll-y="true">
+    <view class="scroll_view_style" wx:for="{{shops}}" wx:for-index="idx">
+      <text>{{idx+1}}</text>
+      <text>.</text>
+      <text>{{item.title}}</text>
+    </view>
+  </scroll-view>
+<button type="default" style="margin-top: 10px;">随机抽一家</button>
+</view>

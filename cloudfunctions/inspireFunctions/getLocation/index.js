@@ -1,5 +1,5 @@
 const rp = require('request-promise')
-const md5=require('md5');
+const md5 = require('md5');
 exports.main = async (event, context) => {
   const key = "PFUBZ-G3KWX-WHQ4D-TS7OJ-MYOUH-D5F3M";
   const {loc} = event;
